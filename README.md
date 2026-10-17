@@ -32,24 +32,6 @@ Before you begin, ensure you have the following installed:
 - Python (v3.12 or higher recommended)
 - Git
 
-## Environment Variables Setup
-
-### Backend Environment Variables
-Create a `.env` file in the `backend/` directory with the following keys (see `backend/.env.example` if available):
-```env
-# Supabase
-SUPABASE_URL=your_supabase_url
-SUPABASE_KEY=your_supabase_api_key
-
-# Cloudinary
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-
-# Redis
-REDIS_URL=your_redis_url
-```
-
 ### Frontend Environment Variables
 Create a `.env.local` file in the `frontend/` directory. (Check `frontend/.env.local` for required keys, typically API URLs pointing to your backend).
 
